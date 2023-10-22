@@ -31,7 +31,7 @@ Inside the repository folder, create a new Python test file (e.g., `test_cropper
 from DynamicCrop import DynamicCropper
 
 cropper = DynamicCropper(
-    frame_interval=30,
+    frame_interval=10,
     size_aware=True,
     only_object=True
 )
@@ -64,7 +64,7 @@ https://github.com/AteltaAI/DynamicCropper/assets/78687109/5c9db786-c912-49e1-af
 from DynamicCrop import DynamicCropper
 
 cropper = DynamicCropper(
-    frame_interval=30,
+    frame_interval=10,
     size_aware=False,
     only_object=False
 )
@@ -89,7 +89,7 @@ https://github.com/AteltaAI/DynamicCropper/assets/78687109/f4964f55-319b-41fc-ab
 from DynamicCrop import DynamicCropper
 
 cropper = DynamicCropper(
-    frame_interval=30,
+    frame_interval=10,
     size_aware=True,
     only_object=True
 )
@@ -114,7 +114,7 @@ https://github.com/AteltaAI/DynamicCropper/assets/78687109/4f7625d1-2dc9-490e-96
 from DynamicCrop import DynamicCropper
 
 cropper = DynamicCropper(
-    frame_interval=30,
+    frame_interval=10,
     size_aware=True,
     only_object=False
 )

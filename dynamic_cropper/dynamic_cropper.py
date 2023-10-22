@@ -8,7 +8,7 @@ from pytube import YouTube
 import numpy as np
 import cv2
 
-from .Tracker import YOLOTracker
+from .tracker import YOLOTracker
 from .utils import extract_audio, merge_audio
 
 

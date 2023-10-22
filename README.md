@@ -12,6 +12,7 @@ This section outlines the tasks and improvements planned for the DynamicCropper 
 - [ ] Better outputs and error prints.
 - [ ] Logger.
 - [ ] Better file structure.
+- [ ] Add better `requirements.txt`
 
 ## How to Use
 
@@ -28,7 +29,7 @@ git clone https://github.com/AteltaAI/DynamicCropper.git
 Inside the repository folder, create a new Python test file (e.g., `test_cropper.py`). You can use the following example code in your test file:
 
 ```python
-from DynamicCrop import DynamicCropper
+from dynamic_cropper import DynamicCropper
 
 cropper = DynamicCropper(
     frame_interval=10,
@@ -57,11 +58,12 @@ python test_cropper.py
 
 https://github.com/AteltaAI/DynamicCropper/assets/78687109/5c9db786-c912-49e1-af6b-73da2c1c71b3
 
-
 ### Test Video 1:
+
 #### Code:
+
 ```python
-from DynamicCrop import DynamicCropper
+from dynamic_cropper import DynamicCropper
 
 cropper = DynamicCropper(
     frame_interval=10,
@@ -76,17 +78,17 @@ result = cropper.crop(
 
 print(result)
 ```
-#### Output:
 
+#### Output:
 
 https://github.com/AteltaAI/DynamicCropper/assets/78687109/f4964f55-319b-41fc-ab9c-014930f01df0
 
+### Test Video 2:
 
-
-### Test Video 2: 
 #### Code:
+
 ```python
-from DynamicCrop import DynamicCropper
+from dynamic_cropper import DynamicCropper
 
 cropper = DynamicCropper(
     frame_interval=10,
@@ -101,17 +103,17 @@ result = cropper.crop(
 
 print(result)
 ```
-#### Output:
 
+#### Output:
 
 https://github.com/AteltaAI/DynamicCropper/assets/78687109/4f7625d1-2dc9-490e-962f-a02917eb88c8
 
-
-
 ### Test Video 3:
+
 #### Code:
+
 ```python
-from DynamicCrop import DynamicCropper
+from dynamic_cropper import DynamicCropper
 
 cropper = DynamicCropper(
     frame_interval=10,
@@ -126,8 +128,7 @@ result = cropper.crop(
 
 print(result)
 ```
+
 #### Output:
 
-
 https://github.com/AteltaAI/DynamicCropper/assets/78687109/b03c155b-d2cd-4ed9-9175-f202c16e7a55
-
